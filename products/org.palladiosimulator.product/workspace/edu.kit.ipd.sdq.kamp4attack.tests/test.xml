@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PolicySet xmlns="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17" PolicySetId="_caMcAQyYEeyaBLrK9rfqSA" Version="0.0.1" PolicyCombiningAlgId="urn:oasis:names:tc:xacml:3.0:policy-combining-algorithm:deny-unless-permit">
+    <Description>Policies for Supermarket. Automatically created by Palladio-XACML-Integration</Description>
+    <Target/>
+    <Policy PolicyId="_XS8sQTgEEeyQ_oZ5YyVHCg" Version="0.0.1" RuleCombiningAlgId="urn:oasis:names:tc:xacml:3.0:rule-combining-algorithm:deny-unless-permit">
+        <Description>DomainAdminDatabase</Description>
+        <Target/>
+        <Rule RuleId="_XqfCgDgEEeyQ_oZ5YyVHCg" Effect="Permit">
+            <Description>Databse</Description>
+            <Target>
+                <AnyOf>
+                    <AllOf>
+                        <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+                            <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_AVlSIAshEeya1aH-ZcM-RA Assembly_Database</AttributeValue>
+                            <AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                        </Match>
+                    </AllOf>
+                </AnyOf>
+            </Target>
+            <Condition>
+                <Apply FunctionId="urn:oasis:names:tc:xacml:3.0:function:any-of">
+                    <Description>aName</Description>
+                    <Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+                    <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">DomainAdmin</AttributeValue>
+                    <AttributeDesignator Category="urn:oasis:names:tc:xacml:1.0:subject" AttributeId="_sd7a0gyXEeyaBLrK9rfqSA" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true"/>
+                </Apply>
+            </Condition>
+        </Rule>
+    </Policy>
+    <PolicySet PolicySetId="_Br-3gAyZEeyZbopQ38PZkA" Version="0.0.1" PolicyCombiningAlgId="urn:oasis:names:tc:xacml:3.0:policy-combining-algorithm:deny-unless-permit">
+        <Target/>
+        <Policy PolicyId="_gbmb8QyYEeyaBLrK9rfqSA" Version="0.0.1" RuleCombiningAlgId="urn:oasis:names:tc:xacml:3.0:rule-combining-algorithm:deny-unless-permit">
+            <Description>BI-Access</Description>
+            <Target/>
+            <Rule RuleId="_8j_C8AyYEeyZbopQ38PZkA" Effect="Permit">
+                <Description>Billing</Description>
+                <Target>
+                    <AnyOf>
+                        <AllOf>
+                            <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_YGBd0Ao3EeyKMtWTxnyP1g</AttributeValue>
+<AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:action" AttributeId="urn:oasis:names:tc:xacml:1.0:action:action-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                            </Match>
+                            <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_MHdyYAo9EeyKMtWTxnyP1g Assembly_BusinessServiceComponent</AttributeValue>
+<AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                            </Match>
+                        </AllOf>
+                    </AnyOf>
+                </Target>
+                <Condition>
+                    <Apply FunctionId="urn:oasis:names:tc:xacml:3.0:function:any-of">
+                        <Description>SupplierCredentialCheck</Description>
+                        <Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+                        <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">Supplier</AttributeValue>
+                        <AttributeDesignator Category="urn:oasis:names:tc:xacml:1.0:subject" AttributeId="_sd7a0gyXEeyaBLrK9rfqSA" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true"/>
+                    </Apply>
+                </Condition>
+            </Rule>
+        </Policy>
+    </PolicySet>
+    <PolicySet PolicySetId="_hblnYDr9EeyaGdbmVfHw9A" Version="0.0.1" PolicyCombiningAlgId="urn:oasis:names:tc:xacml:3.0:policy-combining-algorithm:deny-unless-permit">
+        <Target/>
+        <Policy PolicyId="_jyyIQTr9EeyaGdbmVfHw9A" Version="0.0.1" RuleCombiningAlgId="urn:oasis:names:tc:xacml:3.0:rule-combining-algorithm:deny-unless-permit">
+            <Description>Admin</Description>
+            <Target/>
+            <Rule RuleId="_kYBjUDr9EeyaGdbmVfHw9A" Effect="Permit">
+                <Description>Admin</Description>
+                <Target>
+                    <AnyOf>
+                        <AllOf>
+                            <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_csC_AAo9EeyKMtWTxnyP1g BusinessServer</AttributeValue>
+<AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                            </Match>
+                        </AllOf>
+                        <AllOf>
+                            <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_fUZhUAo9EeyKMtWTxnyP1g POS1</AttributeValue>
+<AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                            </Match>
+                        </AllOf>
+                        <AllOf>
+                            <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_gl3JMAo9EeyKMtWTxnyP1g POS2</AttributeValue>
+<AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                            </Match>
+                        </AllOf>
+                        <AllOf>
+                            <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_X6PkYAsjEeya1aH-ZcM-RA POS3</AttributeValue>
+<AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                            </Match>
+                        </AllOf>
+                        <AllOf>
+                            <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_tV4fEAo9EeyKMtWTxnyP1g StorageServer</AttributeValue>
+<AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                            </Match>
+                        </AllOf>
+                        <AllOf>
+                            <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">_kVyXkAo9EeyKMtWTxnyP1g Intranet</AttributeValue>
+<AttributeDesignator Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false"/>
+                            </Match>
+                        </AllOf>
+                    </AnyOf>
+                </Target>
+                <Condition>
+                    <Apply FunctionId="urn:oasis:names:tc:xacml:3.0:function:any-of">
+                        <Description>aName</Description>
+                        <Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+                        <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">DomainAdmin</AttributeValue>
+                        <AttributeDesignator Category="urn:oasis:names:tc:xacml:1.0:subject" AttributeId="_sd7a0gyXEeyaBLrK9rfqSA" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true"/>
+                    </Apply>
+                </Condition>
+            </Rule>
+        </Policy>
+    </PolicySet>
+</PolicySet>

@@ -373,6 +373,50 @@ version(s), and exceptions or additional permissions here}.&quot;
       <feature id="org.eclipse.pde.source" installMode="root"/>
       <feature id="tools.mdsd.cdo.debug.feature" installMode="root"/>
       <feature id="org.eclipse.epp.package.modeling.feature" installMode="root"/>
+      <feature id="org.eclipse.gmf.runtime.thirdparty" installMode="root"/>
+      <feature id="org.eclipse.help" installMode="root"/>
+      <feature id="org.palladiosimulator.commons.stoex.ui.feature" installMode="root"/>
+      <feature id="org.eclipse.sirius.runtime.ide.ui" installMode="root"/>
+      <feature id="org.palladiosimulator.examples.package.feature" installMode="root"/>
+      <feature id="org.yakindu.base.xtext.utils.gmf" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.core.feature" installMode="root"/>
+      <feature id="org.eclipse.gmf" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.gef" installMode="root"/>
+      <feature id="org.palladiosimulator.mdsdprofiles.feature" installMode="root"/>
+      <feature id="org.eclipse.draw2d" installMode="root"/>
+      <feature id="org.eclipse.emf.edit" installMode="root"/>
+      <feature id="org.eclipse.sirius.properties.feature" installMode="root"/>
+      <feature id="org.eclipse.emf.transaction" installMode="root"/>
+      <feature id="org.palladiosimulator.cost.feature" installMode="root"/>
+      <feature id="org.eclipse.rcp" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature" installMode="root"/>
+      <feature id="tools.mdsd.license.epl2" installMode="root"/>
+      <feature id="org.eclipse.emf.workspace" installMode="root"/>
+      <feature id="org.yakindu.base.xtext.utils.jface" installMode="root"/>
+      <feature id="org.eclipse.e4.core.tools.feature" installMode="root"/>
+      <feature id="org.palladiosimulator.architecturaltemplates.feature" installMode="root"/>
+      <feature id="org.palladiosimulator.commons.stoex.serialising.feature" installMode="root"/>
+      <feature id="org.palladiosimulator.architecturaltemplates.examples.feature" installMode="root"/>
+      <feature id="org.eclipse.jdt" installMode="root"/>
+      <feature id="org.eclipse.emf.common" installMode="root"/>
+      <feature id="org.eclipse.sirius.runtime.ide.eef" installMode="root"/>
+      <feature id="org.eclipse.sirius.runtime" installMode="root"/>
+      <feature id="org.palladiosimulator.commons.stoex.sdk" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.user.ui" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature" installMode="root"/>
+      <feature id="de.uka.ipd.sdq.stoex.feature" installMode="root"/>
+      <feature id="org.eclipse.gmf.runtime.notation" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" installMode="root"/>
+      <feature id="org.palladiosimulator.pcm.stoex.serialising.feature" installMode="root"/>
+      <feature id="org.eclipse.platform" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore.edit" installMode="root"/>
+      <feature id="org.eclipse.emf.validation" installMode="root"/>
+      <feature id="org.eclipse.e4.rcp" installMode="root"/>
    </features>
 
    <configurations>
@@ -381,8 +425,8 @@ version(s), and exceptions or additional permissions here}.&quot;
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
-      <property name="org.eclipse.ui/org.eclipse.ui.edit.text.encoding" value="UTF-8" />
       <property name="org.eclipse.core.resources/encoding" value="UTF-8" />
+      <property name="org.eclipse.ui/org.eclipse.ui.edit.text.encoding" value="UTF-8" />
       <property name="osgi.instance.area.default" value="@user.home/workspace-palladiobench" />
    </configurations>
 

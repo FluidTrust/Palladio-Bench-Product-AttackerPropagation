@@ -26,7 +26,7 @@
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.launchActionSet</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_XmWMIT_VEey58-lc1iVtHw" selectedElement="_XmWMIj_VEey58-lc1iVtHw" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_XmWMIj_VEey58-lc1iVtHw" containerData="2500" selectedElement="_XmWMIz_VEey58-lc1iVtHw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_XmWMIj_VEey58-lc1iVtHw" containerData="3438" selectedElement="_XmWMIz_VEey58-lc1iVtHw">
               <children xsi:type="basic:PartStack" xmi:id="_XmWMIz_VEey58-lc1iVtHw" elementId="topLeft" containerData="6179" selectedElement="_XmWMJD_VEey58-lc1iVtHw">
                 <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_XmWMJD_VEey58-lc1iVtHw" elementId="org.eclipse.sirius.ui.tools.views.model.explorer" ref="_XmQskD_VEey58-lc1iVtHw" closeable="true">
@@ -49,7 +49,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_XmWzMj_VEey58-lc1iVtHw" containerData="7500" selectedElement="_XmWzND_VEey58-lc1iVtHw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_XmWzMj_VEey58-lc1iVtHw" containerData="6562" selectedElement="_XmWzND_VEey58-lc1iVtHw">
               <children xsi:type="advanced:Placeholder" xmi:id="_XmWzMz_VEey58-lc1iVtHw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_XmKl8D_VEey58-lc1iVtHw"/>
               <children xsi:type="basic:PartSashContainer" xmi:id="_XmWzND_VEey58-lc1iVtHw" containerData="2500" selectedElement="_XmWzOD_VEey58-lc1iVtHw" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_XmWzNT_VEey58-lc1iVtHw" elementId="bottom" containerData="6179" selectedElement="_XmWzNj_VEey58-lc1iVtHw">
@@ -187,7 +187,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XkS9sD_VEey58-lc1iVtHw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XkXPID_VEey58-lc1iVtHw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_XV6jgT_VEey58-lc1iVtHw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kuKSEE0qEeyhWONo04_TiA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_XV6jgT_VEey58-lc1iVtHw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XkTkwD_VEey58-lc1iVtHw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -212,7 +212,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XkTkxz_VEey58-lc1iVtHw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XkX2Mj_VEey58-lc1iVtHw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_XV5Vej_VEey58-lc1iVtHw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kuNVYE0qEeyhWONo04_TiA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_XV5Vej_VEey58-lc1iVtHw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XkTkyD_VEey58-lc1iVtHw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1357,7 +1357,7 @@
   </commands>
   <commands xmi:id="_XV4uaD_VEey58-lc1iVtHw" elementId="org.eclipse.pde.ui.openPluginArtifact" commandName="Open Plug-in Artifact" description="Open a plug-in artifact in the manifest editor" category="_XV1D5T_VEey58-lc1iVtHw"/>
   <commands xmi:id="_XV4uaT_VEey58-lc1iVtHw" elementId="org.eclipse.ui.window.switchToEditor" commandName="Switch to Editor" description="Switch to an editor" category="_XV1q8D_VEey58-lc1iVtHw"/>
-  <commands xmi:id="_XV4uaj_VEey58-lc1iVtHw" elementId="org.eclipse.ui.help.dynamicHelp" commandName="Show Contextual Help" description="Open the contextual help" category="_XV1q8j_VEey58-lc1iVtHw"/>
+  <commands xmi:id="_XV4uaj_VEey58-lc1iVtHw" elementId="org.eclipse.ui.help.dynamicHelp" commandName="Show Context Help" description="Open the contextual help" category="_XV1q8j_VEey58-lc1iVtHw"/>
   <commands xmi:id="_XV4uaz_VEey58-lc1iVtHw" elementId="org.eclipse.ui.navigate.nextSubTab" commandName="Next Sub-Tab" description="Switch to the next sub-tab" category="_XV1D5T_VEey58-lc1iVtHw"/>
   <commands xmi:id="_XV4ubD_VEey58-lc1iVtHw" elementId="org.eclipse.jdt.ui.edit.text.java.comment" commandName="Comment" description="Turn the selected lines into Java comments" category="_XV1q_j_VEey58-lc1iVtHw"/>
   <commands xmi:id="_XV4ubT_VEey58-lc1iVtHw" elementId="org.eclipse.jdt.ui.edit.text.java.introduce.parameter" commandName="Introduce Parameter" description="Introduce a new method parameter based on the selected expression" category="_XV1q8T_VEey58-lc1iVtHw"/>
@@ -1872,6 +1872,7 @@
   <commands xmi:id="_Xi0XAT_VEey58-lc1iVtHw" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Display" commandName="Display" description="Display Result of Evaluating Selected Text" category="_XV1rAj_VEey58-lc1iVtHw"/>
   <commands xmi:id="_Xi0XAj_VEey58-lc1iVtHw" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Inspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_XV1rAj_VEey58-lc1iVtHw"/>
   <commands xmi:id="_Xi0XAz_VEey58-lc1iVtHw" elementId="AUTOGEN:::org.eclipse.pde.ui.logViewActions/org.eclipse.jdt.debug.ui.LogViewActions.showStackTrace" commandName="Show Stack Trace in Console View" description="Show Stack Trace in Console View" category="_XV1rAj_VEey58-lc1iVtHw"/>
+  <commands xmi:id="_kk1-AU0qEeyhWONo04_TiA" elementId="org.eclipse.jdt.ui.edit.text.java.raw.paste" commandName="Raw Paste" description="Paste and ignore smart insert setting" category="_XV1D4j_VEey58-lc1iVtHw"/>
   <addons xmi:id="_XVbbSD_VEey58-lc1iVtHw" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_XVbbST_VEey58-lc1iVtHw" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_XVbbSj_VEey58-lc1iVtHw" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -1883,7 +1884,7 @@
   <addons xmi:id="_XVbbUD_VEey58-lc1iVtHw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_XVbbUT_VEey58-lc1iVtHw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_XViwAD_VEey58-lc1iVtHw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_klfeQE0qEeyhWONo04_TiA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_XV1D4D_VEey58-lc1iVtHw" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_XV1D4T_VEey58-lc1iVtHw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

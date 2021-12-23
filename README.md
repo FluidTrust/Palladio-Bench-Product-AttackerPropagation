@@ -1,11 +1,10 @@
 # Palladio-Bench-Product-AttackPropagation
 
 ## Executing the product
-We bundled a eclipse product, which can be used to start our analysis and view the models. It should be configured that it automatically opens a workspace with the necessary projects loaded. In case that won't happen, the projects can be manually loaded over the source folder and there *Palladio-Addons-ContextConfidentiality-Analysis/tests/org.palladiosimulator.pcm.confidentiality.context.analysis.testmodels/* or for the automatic test *Palladio-Addons-ContextConfidentiality-Analysis/tests/edu.kit.ipd.sdq.kamp4attack.tests/*
-Here we describe the step to execute the binary:
-*  Unzip the version of your Operating System
-    * **Attention:** The MAC-Version might not work, because of MACOS security features. In that case [this](https://sdqweb.ipd.kit.edu/wiki/PCM_Installation#Mac_OS_X) might help. If not, you can still use the update site or manually install tooling, but you are required to solve the dependencies.
-* Start the Application by executing the *PalladioBench* binary (not the eclipse one!)
+We bundled a eclipse product, which can be used to start our analysis and view the models. It should be configured that it automatically opens a workspace with the necessary projects loaded.
+*  [Download](https://updatesite.palladio-simulator.com/fluidtrust/palladio-bench-product-attackerpropagation/nightly/) and unzip the version for your operating system
+    * **Attention:** The MAC-Version might not work, because of MACOS security features. In that case [this](https://sdqweb.ipd.kit.edu/wiki/PCM_Installation#Mac_OS_X) might help. If not, you can still use the update site or manually install the tooling, but you are required to solve the dependencies manually.
+* Start the application by executing the *PalladioBench* binary (not the eclipse one!)
 * After the load screen you should see 3 Projects in the Modelviewer on the left side:
     * edu.kit.ipd.sdq.kamp4attack.tests
     * org.palladiosimulator.pcm.confidentiality.context.analysis.testframework
@@ -24,7 +23,6 @@ Here we describe the step to execute the binary:
     * Navigate in the src folder to *edu.kit.ipd.sdq.kamp4attack.tests.casestudies* and *edu.kit.ipd.sdq.kamp4attack.tests.casestudies.travelplanner*.
     * By opening the context menu (right click usually) and "Run as" Junit-**Plugin**-Test
     * It is important to execute the tests as Plugin Tests since otherwise the dependencies can't be solved
-    * For Windows and Mac-User they can run the test by executing `mvn clean verify` in *source/Palladio-Addons-ContextConfidentiality-Analysis/*
 
 ## Model Descripton
 * Target Breach

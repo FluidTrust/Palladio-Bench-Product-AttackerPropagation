@@ -59,9 +59,9 @@
 					<url>https://updatesite.mdsd.tools/library-standaloneinitialization/nightly/</url>
 				</repository>
 				<repository>
-					<id>Kampp</id>
+					<id>Variation</id>
 					<layout>p2</layout>
-					<url>https://raw.githubusercontent.com/KAMP-Research/KAMP/gh-pages</url>
+					<url>https://updatesite.palladio-simulator.com/fluidtrust/palladio-addons-uncertainty-variationcreation/nightly/</url>
 				</repository>
 				<repository>
 					<id>EMFEdit</id>

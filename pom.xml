@@ -64,6 +64,16 @@
 					<url>https://updatesite.palladio-simulator.com/fluidtrust/palladio-addons-uncertainty-variationcreation/nightly/</url>
 				</repository>
 				<repository>
+					<id>Dataflow</id>
+					<layout>p2</layout>
+					<url>https://updatesite.palladio-simulator.com/fluidtrust/fluidtrust-build-updatesite/nightly/</url>
+				</repository>
+				<repository>
+					<id>DataflowJava</id>
+					<layout>p2</layout>
+					<url>https://updatesite.palladio-simulator.com/fluidtrust/palladio-addons-dataflowconfidentiality-java/nightly/</url>
+				</repository>
+				<repository>
 					<id>EMFEdit</id>
 					<layout>p2</layout>
 					<url>https://updatesite.mdsd.tools/library-emfeditutils/nightly/</url>

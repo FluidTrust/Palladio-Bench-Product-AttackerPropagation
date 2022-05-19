@@ -10,6 +10,7 @@ jobs:
       - uses: PalladioSimulator/Palladio-Build-ActionsPipeline@v2
         with:
           deploy-updatesite: 'products/org.palladiosimulator.product/target/deploy'
+          java-version: 17
           server-ssh-key: ${{ secrets.DEPLOYMENT_SERVER_SSH_KEY }}
           remote-host: ${{ secrets.DEPLOYMENT_REMOTE_HOST }}
           remote-port: ${{ secrets.DEPLOYMENT_REMOTE_PORT }}

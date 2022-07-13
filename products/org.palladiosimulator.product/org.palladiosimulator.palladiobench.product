@@ -360,7 +360,7 @@ version(s), and exceptions or additional permissions here}.&quot;
       <feature id="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" installMode="root"/>
       <feature id="org.palladiosimulator.measurementsui.feature" installMode="root"/>
       <feature id="org.palladiosimulator.pcm.confidentiality.context.analysis.att.pdp.feature" installMode="root"/>
-      <feature id="org.palladiosimulator.pcm.confidentiality.context.analysis.variation.feature" installMode="root"/>
+      <feature id="org.palladiosimulator.pcm.confidentiality.context.analysis.feature" installMode="root"/>
       <feature id="org.palladiosimulator.pcm.confidentiality.context.editor.feature" installMode="root"/>
       <feature id="org.palladiosimulator.pcm.confidentiality.context.model.feature" installMode="root"/>
       <feature id="tools.mdsd.library.standalone.initialization.core.feature" installMode="root"/>

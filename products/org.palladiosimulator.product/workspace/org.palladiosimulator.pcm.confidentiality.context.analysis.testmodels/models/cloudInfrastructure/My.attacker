@@ -2,21 +2,25 @@
 <attacker:AttackerSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:attack="http://www.palladiosimulator.org/pcm/confidentiality/attacker/0.1/" xmlns:attacker="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/" xmlns:pcmIntegration="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/pcmIntagration/">
   <attackers>
     <attacker id="_Kw-xUKEmEeuyfoSUd8RMpg" entityName="Test"/>
-    <surfaceattacker id="_XAJcUaOBEeyPgbGXj7rW7A" targetedElement="_L8u2kKOfEeyg1bkezwUNpA" attacker="_Kw-xUKEmEeuyfoSUd8RMpg">
+    <surfaceattacker id="_XAJcUaOBEeyPgbGXj7rW7A" targetedElement="_L8u2kKOfEeyg1bkezwUNpA">
       <filtercriteria xsi:type="attacker:MaximumPathLengthFilterCriterion"/>
+      <filtercriteria xsi:type="attacker:InitialCredentialFilterCriterion">
+        <prohibitedInitialCredentials href="My.context#_sKKUUe4ZEeu1msiU_4h_hw"/>
+        <prohibitedInitialCredentials href="My.context#_RyWUMaOhEeyg1bkezwUNpA"/>
+      </filtercriteria>
     </surfaceattacker>
   </attackers>
   <vulnerabilites>
-    <vulnerability xsi:type="attack:CVEVulnerability" id="cve-2013-4344" entityName="vulnerability CVE-2013-4344 attack hypervisor" attackVector="Network" confidentialityImpact="High" integrityImpact="High" availabilityImpact="High" takeOver="true" cveID="//@categoryspecification/@categories.0">
+    <vulnerability xsi:type="attack:CVEVulnerability" id="cve-2013-4344" entityName="vulnerability CVE-2013-4344 attack hypervisor" confidentialityImpact="High" integrityImpact="High" availabilityImpact="High" takeOver="true" cveID="_xO_zQhMpEe2TBtDIRt9JBA">
       <gainedAttributes href="My.context#_RyWUMaOhEeyg1bkezwUNpA"/>
     </vulnerability>
-    <vulnerability xsi:type="attack:CVEVulnerability" id="cve-2012-3515" entityName="CVE-2012-3515 attack source VM" attackVector="Network" confidentialityImpact="High" integrityImpact="High" availabilityImpact="High" cveID="//@categoryspecification/@categories.1">
+    <vulnerability xsi:type="attack:CVEVulnerability" id="cve-2012-3515" entityName="CVE-2012-3515 attack source VM" confidentialityImpact="High" integrityImpact="High" availabilityImpact="High" cveID="_xO_zQxMpEe2TBtDIRt9JBA">
       <gainedAttributes href="My.context#_RyWUMaOhEeyg1bkezwUNpA"/>
     </vulnerability>
   </vulnerabilites>
   <categoryspecification>
-    <categories xsi:type="attack:CVEID" entityName="CVE-2013-4344 attack hypervisor" cveID="2013-4344"/>
-    <categories xsi:type="attack:CVEID" entityName="CVE-2012-3515 attack source VM" cveID="2012-3515"/>
+    <categories xsi:type="attack:CVEID" id="_xO_zQhMpEe2TBtDIRt9JBA" entityName="CVE-2013-4344 attack hypervisor" cveID="2013-4344"/>
+    <categories xsi:type="attack:CVEID" id="_xO_zQxMpEe2TBtDIRt9JBA" entityName="CVE-2012-3515 attack source VM" cveID="2012-3515"/>
   </categoryspecification>
   <systemintegration>
     <vulnerabilities xsi:type="pcmIntegration:DefaultSystemIntegration" id="_LOU4c6OfEeyg1bkezwUNpA" entityName="targetVMIntegration">
@@ -66,7 +70,7 @@
     </vulnerabilities>
     <vulnerabilities xsi:type="pcmIntegration:VulnerabilitySystemIntegration" id="_U4FEIKOjEeyg1bkezwUNpA" entityName="source vuln" vulnerability="cve-2012-3515">
       <pcmelement id="_W0HTAKOjEeyg1bkezwUNpA">
-        <assemblycontext href="newAssembly.system#_uBX2EKOeEeyg1bkezwUNpA"/>
+        <assemblycontext href="newAssembly.system#_P0u4UKOeEeyg1bkezwUNpA"/>
       </pcmelement>
     </vulnerabilities>
   </systemintegration>

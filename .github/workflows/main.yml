@@ -7,7 +7,7 @@ jobs:
    runs-on: ubuntu-latest
    
    steps:
-      - uses: PalladioSimulator/Palladio-Build-ActionsPipeline@v2
+      - uses: PalladioSimulator/Palladio-Build-ActionsPipeline@v3.2
         with:
           deploy-updatesite: 'products/org.palladiosimulator.product/target/deploy'
           java-version: 17

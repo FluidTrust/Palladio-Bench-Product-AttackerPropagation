@@ -37,7 +37,7 @@
 				<repository>
 					<id>pcm-nightly</id>
 					<layout>p2</layout>
-					<url>https://updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/</url>
+					<url>https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/5.1.0/</url>
 				</repository>
 				<repository>
 					<id>metamodel</id>

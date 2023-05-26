@@ -3,7 +3,7 @@
 The general documentation can be found [here](https://fluidtrust.github.io/attack-propagation-doc/).
 ## Executing the product
 We bundled a eclipse product, which can be used to start our analysis and view the models. It should be configured that it automatically opens a workspace with the necessary projects loaded.
-*  [Download](https://updatesite.palladio-simulator.com/fluidtrust/palladio-bench-product-attackerpropagation/nightly/) and unzip the version for your operating system
+*  [Download](https://updatesite.palladio-simulator.com/fluidtrust/palladio-bench-product-attackerpropagation/nightly/) and unpack the version for your operating system
     * **Attention:** The MAC-Version might not work, because of MACOS security features. In that case [this](https://sdqweb.ipd.kit.edu/wiki/PCM_Installation#Mac_OS_X) might help. If not, you can still use the update site or manually install the tooling, but you are required to solve the dependencies manually.
 * Start the application by executing the *PalladioBench* binary (not the eclipse one!)
 * After the load screen you should see 3 Projects in the Modelviewer on the left side:

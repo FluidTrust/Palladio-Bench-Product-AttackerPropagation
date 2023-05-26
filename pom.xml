@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.palladiosimulator</groupId>
 		<artifactId>eclipse-parent-product</artifactId>
-		<version>0.8.2</version>
+		<version>0.8.7</version>
 	</parent>
 	<groupId>edu.kit.kastel.fluidtrust.attackeranalysis</groupId>
 	<artifactId>parent</artifactId>	

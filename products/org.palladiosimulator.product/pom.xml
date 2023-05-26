@@ -129,7 +129,7 @@
 						<configuration>
 							<target name="move-product-zips">
 								<move todir="${project.build.directory}/deploy" verbose="true" overwrite="true">
-									<fileset dir="${project.build.directory}/products" includes="*.zip" />
+									<fileset dir="${project.build.directory}/products" includes="*.zip,*.tar.gz" />
 									<regexpmapper from="${product.id}-(.*)" to="AttackerPropagation.\1"/>
 								</move>
 							</target>

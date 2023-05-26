@@ -1,5 +1,6 @@
 # Palladio-Bench-Product-AttackPropagation
-
+## General Documentation
+The general documentation can be found [here](https://fluidtrust.github.io/attack-propagation-doc/).
 ## Executing the product
 We bundled a eclipse product, which can be used to start our analysis and view the models. It should be configured that it automatically opens a workspace with the necessary projects loaded.
 *  [Download](https://updatesite.palladio-simulator.com/fluidtrust/palladio-bench-product-attackerpropagation/nightly/) and unzip the version for your operating system

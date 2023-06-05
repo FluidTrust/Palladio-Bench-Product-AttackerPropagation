@@ -12,7 +12,7 @@ on:
 
 jobs:
   Build-Bench:
-      uses: PalladioSimulator/Palladio-Build-ActionsPipeline/.github/workflows/build.yml@v3.3
+      uses: PalladioSimulator/Palladio-Build-ActionsPipeline/.github/workflows/build.yml@v3.4
       with:
           deploy-updatesite: 'products/org.palladiosimulator.product/target/deploy'
           java-version: 17

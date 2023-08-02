@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: org.palladiosimulator.pcm.confidentiality.context.analysis.tests
+Bundle-Version: 5.2.0.qualifier
+Import-Package: org.junit.jupiter.api;version="5.8.0"
+Automatic-Module-Name: org.palladiosimulator.pcm.confidentiality.context.analysis.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: org.junit,
+ org.palladiosimulator.pcm.confidentiality.context,
+ org.palladiosimulator.pcm.confidentiality.context.scenarioanalysis.api;bundle-version="1.0.0",
+ org.palladiosimulator.pcm.confidentiality.context.scenarioanalysis.provider;bundle-version="1.0.0",
+ org.palladiosimulator.pcm.confidentiality.context.analysis.testframework,
+ org.palladiosimulator.pcm.confidentiality.context.xacml.pdp,
+ org.palladiosimulator.pcm.confidentiality.context.xacml.javapdp,
+ org.palladiosimulator.pcm.confidentiality.context.xacml.generation,
+ org.palladiosimulator.pcm.confidentiality.context.analysis.outputmodel

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAMP4attackModificationmarks:KAMP4attackModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:KAMP4attackModificationmarks="http://sdq.ipd.kit.edu/KAMP4attackModificationmarks/1.0" xmlns:attacker="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/">
+  <changePropagationSteps/>
+  <seedModifications>
+    <attackcomponent id="_U8_TYDWdEe2cAKq-d4-tBw">
+      <affectedElement xsi:type="attacker:Attacker" href="running_example.attacker#_F4i48OZuEeyze4K1yVUPAw"/>
+    </attackcomponent>
+  </seedModifications>
+</KAMP4attackModificationmarks:KAMP4attackModificationRepository>

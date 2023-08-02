@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<list key="installedFeatures">
 		<item value="de.uka.ipd.sdq.simulation.abstractsimengine.feature:5.1.0.202201251349"/>
-		<item value="de.uka.ipd.sdq.stoex.feature:5.1.0.202211020225"/>
+		<item value="de.uka.ipd.sdq.stoex.feature:5.1.0.202211080202"/>
 		<item value="org.eclipse.draw2d:3.10.100.201606061308"/>
 		<item value="org.eclipse.emf.common:2.24.0.v20210924-1718"/>
 		<item value="org.eclipse.emf.ecore.edit:2.15.0.v20210924-1718"/>
@@ -26,30 +26,30 @@
 		<item value="org.eclipse.sirius.runtime.ide.ui:6.5.1.202106111115"/>
 		<item value="org.eclipse.sirius.runtime:6.5.1.202106111115"/>
 		<item value="org.palladiosimulator.analyzer.feature:5.1.0.202201251519"/>
-		<item value="org.palladiosimulator.architecturaltemplates.examples.feature:5.1.0.202211020418"/>
-		<item value="org.palladiosimulator.architecturaltemplates.feature:5.1.0.202211020418"/>
+		<item value="org.palladiosimulator.architecturaltemplates.examples.feature:5.1.0.202211080411"/>
+		<item value="org.palladiosimulator.architecturaltemplates.feature:5.1.0.202211080411"/>
 		<item value="org.palladiosimulator.branding.feature:2.0.0"/>
-		<item value="org.palladiosimulator.commons.stoex.sdk:5.1.0.202211020225"/>
-		<item value="org.palladiosimulator.commons.stoex.serialising.feature:5.1.0.202211020225"/>
-		<item value="org.palladiosimulator.commons.stoex.ui.feature:5.1.0.202211020225"/>
+		<item value="org.palladiosimulator.commons.stoex.sdk:5.1.0.202211080202"/>
+		<item value="org.palladiosimulator.commons.stoex.serialising.feature:5.1.0.202211080202"/>
+		<item value="org.palladiosimulator.commons.stoex.ui.feature:5.1.0.202211080202"/>
 		<item value="org.palladiosimulator.cost.feature:5.1.0.202205120528"/>
-		<item value="org.palladiosimulator.editors.commons.feature:5.1.0.202211020312"/>
-		<item value="org.palladiosimulator.editors.sirius.feature:5.1.0.202211020423"/>
+		<item value="org.palladiosimulator.editors.commons.feature:5.1.0.202211080257"/>
+		<item value="org.palladiosimulator.editors.sirius.feature:5.1.0.202211080416"/>
 		<item value="org.palladiosimulator.editors.tree.feature:5.1.0.202201251519"/>
 		<item value="org.palladiosimulator.edp2.feature:5.1.0.202201251352"/>
 		<item value="org.palladiosimulator.edp2.ui.feature:5.1.0.202201251352"/>
-		<item value="org.palladiosimulator.examples.package.feature:5.1.0.202211020421"/>
+		<item value="org.palladiosimulator.examples.package.feature:5.1.0.202211080413"/>
 		<item value="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature:5.1.0.202201251650"/>
-		<item value="org.palladiosimulator.mdsdprofiles.feature:5.1.0.202211020258"/>
+		<item value="org.palladiosimulator.mdsdprofiles.feature:5.1.0.202211080243"/>
 		<item value="org.palladiosimulator.measurementsui.feature:5.1.0.202201251650"/>
 		<item value="org.palladiosimulator.metricspec.feature:5.1.0.202201251346"/>
 		<item value="org.palladiosimulator.monitorrepository.feature:5.1.0.202201251519"/>
-		<item value="org.palladiosimulator.pcm.confidentiality.context.analysis.feature:0.1.0.202211021555"/>
-		<item value="org.palladiosimulator.pcm.confidentiality.context.editor.feature:0.2.0.202210261600"/>
-		<item value="org.palladiosimulator.pcm.confidentiality.context.model.feature:0.2.0.202210261600"/>
-		<item value="org.palladiosimulator.pcm.feature:5.1.0.202211020308"/>
-		<item value="org.palladiosimulator.pcm.stoex.serialising.feature:5.1.0.202211020308"/>
-		<item value="org.palladiosimulator.product.feature:5.1.0.202211030733"/>
+		<item value="org.palladiosimulator.pcm.confidentiality.context.analysis.feature:5.2.0.202308011456"/>
+		<item value="org.palladiosimulator.pcm.confidentiality.context.editor.feature:5.2.0.202305310815"/>
+		<item value="org.palladiosimulator.pcm.confidentiality.context.model.feature:5.2.0.202305310815"/>
+		<item value="org.palladiosimulator.pcm.feature:5.1.0.202211080252"/>
+		<item value="org.palladiosimulator.pcm.stoex.serialising.feature:5.1.0.202211080252"/>
+		<item value="org.palladiosimulator.product.feature:5.2.0.202308020706"/>
 		<item value="org.palladiosimulator.protocom.feature:5.1.0.202201251621"/>
 		<item value="org.palladiosimulator.recorderframework.feature:5.1.0.202201251404"/>
 		<item value="org.palladiosimulator.reliability.feature:5.1.0.202201251613"/>
@@ -59,17 +59,20 @@
 		<item value="org.palladiosimulator.simulizar.reconfiguration.qvto.feature:5.1.0.202201251621"/>
 		<item value="org.palladiosimulator.simulizar.reconfiguration.storydiagram.feature:5.1.0.202201251621"/>
 		<item value="org.palladiosimulator.solver.feature:5.1.0.202201251609"/>
-		<item value="org.yakindu.base.xtext.utils.gmf:3.5.6.202211020226"/>
-		<item value="org.yakindu.base.xtext.utils.jface:3.5.6.202211020226"/>
+		<item value="org.yakindu.base.xtext.utils.gmf:3.5.6.202211080202"/>
+		<item value="org.yakindu.base.xtext.utils.jface:3.5.6.202211080202"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
-		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="/home/majuwa/git/Palladio-Bench-Product-AttackerAnalysis/products/org.palladiosimulator.product/target/deploy/AttackerPropagation.linux.gtk.x86_64/workspace"/>
+			<item value="/home/majuwa/git/Palladio-Addons-ContextConfidentiality-Analysis/tests/org.palladiosimulator.pcm.confidentiality.context.analysis.tests"/>
+			<item value="/home/majuwa/git/Palladio-Addons-ContextConfidentiality-Analysis/tests"/>
+			<item value="/home/majuwa/git/Palladio-Addons-ContextConfidentiality-Analysis/tests/org.palladiosimulator.pcm.confidentiality.context.analysis.testmodels"/>
+			<item value="/home/majuwa/git/Palladio-Addons-DataFlowConfidentiality-Analysis/tests/org.palladiosimulator.dataflow.confidentiality.analysis.testmodels"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<outputmodel:AnalysisResults xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:outputmodel="http://www.palladiosimulator.org/pcm/confidentiality/scenario/0.1/" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <scenariooutput scenario="newUsageModel.usagemodel#_poSoUD6wEeuVUal8mM_jUA" passed="true">
+    <operationOutput decision="PERMIT" connector="composition:ProvidedDelegationConnector newSystem.system#_weE7wD6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_Muw_oD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_g-oAoD6sEeuVUal8mM_jUA">
+      <policyIDs>{id=_yhTv0bTbEeyUksAgOkkg3A,version=0.0.1}</policyIDs>
+    </operationOutput>
+    <operationOutput decision="PERMIT" connector="composition:AssemblyConnector newRepository.repository#_P9mTID6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_OT38QD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_7Ts28D6sEeuVUal8mM_jUA" orgiginAction="newRepository.repository#_turg0D6uEeuVUal8mM_jUA">
+      <policyIDs>{id=_yhTv0bTbEeyUksAgOkkg3A,version=0.0.1}</policyIDs>
+      <originService id="_ZckiQDECEe6H4ocgyCnHUQ" signature="repository:OperationSignature newRepository.repository#_g-oAoD6sEeuVUal8mM_jUA" hierarchy="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA" assemblycontext="newRepository.repository#_Muw_oD6tEeuVUal8mM_jUA" service="newRepository.repository#_umY20D6sEeuVUal8mM_jUA"/>
+    </operationOutput>
+  </scenariooutput>
+  <scenariooutput scenario="newUsageModel.usagemodel#_8M1kgLTcEeyUksAgOkkg3A" misUsage="true" passed="true">
+    <operationOutput decision="DENY" connector="composition:ProvidedDelegationConnector newSystem.system#_weE7wD6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_Muw_oD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_g-oAoD6sEeuVUal8mM_jUA">
+      <policyIDs>{id=_By1MYbTMEeyIO4nD9VIyMw,version=0.0.1}</policyIDs>
+      <policyIDs>{id=_yhTv0bTbEeyUksAgOkkg3A,version=0.0.1}</policyIDs>
+    </operationOutput>
+    <operationOutput decision="DENY" connector="composition:AssemblyConnector newRepository.repository#_P9mTID6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_OT38QD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_7Ts28D6sEeuVUal8mM_jUA" orgiginAction="newRepository.repository#_turg0D6uEeuVUal8mM_jUA">
+      <policyIDs>{id=_By1MYbTMEeyIO4nD9VIyMw,version=0.0.1}</policyIDs>
+      <policyIDs>{id=_yhTv0bTbEeyUksAgOkkg3A,version=0.0.1}</policyIDs>
+      <originService id="_Zc1A8DECEe6H4ocgyCnHUQ" signature="repository:OperationSignature newRepository.repository#_g-oAoD6sEeuVUal8mM_jUA" hierarchy="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA" assemblycontext="newRepository.repository#_Muw_oD6tEeuVUal8mM_jUA" service="newRepository.repository#_umY20D6sEeuVUal8mM_jUA"/>
+    </operationOutput>
+  </scenariooutput>
+  <scenariooutput scenario="newUsageModel.usagemodel#_oMuCMD6wEeuVUal8mM_jUA" passed="true">
+    <operationOutput decision="PERMIT" connector="composition:ProvidedDelegationConnector newSystem.system#_w0fQoD6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_JsFRwD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_eYedwD6sEeuVUal8mM_jUA">
+      <policyIDs>{id=_By1MYbTMEeyIO4nD9VIyMw,version=0.0.1}</policyIDs>
+    </operationOutput>
+    <operationOutput decision="PERMIT" connector="composition:AssemblyConnector newRepository.repository#_MByk4D6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_ID3WwD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_8EkTMD6sEeuVUal8mM_jUA" orgiginAction="newRepository.repository#_yRI_YD6uEeuVUal8mM_jUA">
+      <policyIDs>{id=_By1MYbTMEeyIO4nD9VIyMw,version=0.0.1}</policyIDs>
+      <originService id="_ZbsYgDECEe6H4ocgyCnHUQ" signature="repository:OperationSignature newRepository.repository#_eYedwD6sEeuVUal8mM_jUA" hierarchy="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA" assemblycontext="newRepository.repository#_JsFRwD6tEeuVUal8mM_jUA" service="newRepository.repository#_ukfZYD6sEeuVUal8mM_jUA"/>
+    </operationOutput>
+    <operationOutput decision="PERMIT" connector="composition:ProvidedDelegationConnector newSystem.system#_w0fQoD6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_JsFRwD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_g-oAoD6sEeuVUal8mM_jUA">
+      <policyIDs>{id=_By1MYbTMEeyIO4nD9VIyMw,version=0.0.1}</policyIDs>
+    </operationOutput>
+    <operationOutput decision="PERMIT" connector="composition:AssemblyConnector newRepository.repository#_MByk4D6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_ID3WwD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_7Ts28D6sEeuVUal8mM_jUA" orgiginAction="newRepository.repository#_turg0D6uEeuVUal8mM_jUA">
+      <policyIDs>{id=_By1MYbTMEeyIO4nD9VIyMw,version=0.0.1}</policyIDs>
+      <originService id="_ZcBIoDECEe6H4ocgyCnHUQ" signature="repository:OperationSignature newRepository.repository#_g-oAoD6sEeuVUal8mM_jUA" hierarchy="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA" assemblycontext="newRepository.repository#_JsFRwD6tEeuVUal8mM_jUA" service="newRepository.repository#_umY20D6sEeuVUal8mM_jUA"/>
+    </operationOutput>
+    <operationOutput decision="PERMIT" connector="composition:ProvidedDelegationConnector newSystem.system#_w0fQoD6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_JsFRwD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_o5iowD6sEeuVUal8mM_jUA">
+      <policyIDs>{id=_By1MYbTMEeyIO4nD9VIyMw,version=0.0.1}</policyIDs>
+    </operationOutput>
+    <operationOutput decision="PERMIT" connector="composition:AssemblyConnector newRepository.repository#_MByk4D6tEeuVUal8mM_jUA" assemblyContext="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA newRepository.repository#_ID3WwD6tEeuVUal8mM_jUA" operationsignature="newRepository.repository#_8EkTMD6sEeuVUal8mM_jUA" orgiginAction="newRepository.repository#_3fGSAD6uEeuVUal8mM_jUA">
+      <policyIDs>{id=_By1MYbTMEeyIO4nD9VIyMw,version=0.0.1}</policyIDs>
+      <originService id="_ZcTcgDECEe6H4ocgyCnHUQ" signature="repository:OperationSignature newRepository.repository#_o5iowD6sEeuVUal8mM_jUA" hierarchy="newSystem.system#_q_2YgD6tEeuVUal8mM_jUA" assemblycontext="newRepository.repository#_JsFRwD6tEeuVUal8mM_jUA" service="newRepository.repository#_umngUD6sEeuVUal8mM_jUA"/>
+    </operationOutput>
+  </scenariooutput>
+</outputmodel:AnalysisResults>

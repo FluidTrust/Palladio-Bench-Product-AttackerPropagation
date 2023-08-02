@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1690960646435" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.gmf.runtime.thirdparty" url="features/org.eclipse.gmf.runtime.thirdparty_1.13.1.202106221344/" version="1.13.1.202106221344">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.3.800.v20211124-1800/" version="2.3.800.v20211124-1800">
+</feature>
+<feature id="org.palladiosimulator.measurementsui.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.measurementsui.feature_5.1.0.202201251650/" version="5.1.0.202201251650">
+</feature>
+<feature id="org.eclipse.sirius.runtime.aql" plugin-identifier="org.eclipse.sirius.common.acceleo.aql" url="features/org.eclipse.sirius.runtime.aql_6.5.1.202106111115/" version="6.5.1.202106111115">
+</feature>
+<feature id="org.palladiosimulator.commons.stoex.ui.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.commons.stoex.ui.feature_5.1.0.202211080202/" version="5.1.0.202211080202">
+</feature>
+<feature id="org.palladiosimulator.pcm.confidentiality.context.analysis.att.pdp.feature" url="features/org.palladiosimulator.pcm.confidentiality.context.analysis.att.pdp.feature_5.2.0.202308011456/" version="5.2.0.202308011456">
+</feature>
+<feature id="org.palladiosimulator.analyzer.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.analyzer.feature_5.1.0.202201251519/" version="5.1.0.202201251519">
+</feature>
+<feature id="org.eclipse.sirius.runtime.ide.ui" plugin-identifier="org.eclipse.sirius.common.ui" url="features/org.eclipse.sirius.runtime.ide.ui_6.5.1.202106111115/" version="6.5.1.202106111115">
+</feature>
+<feature id="org.palladiosimulator.examples.package.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.examples.package.feature_5.1.0.202211080413/" version="5.1.0.202211080413">
+</feature>
+<feature id="org.palladiosimulator.monitorrepository.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.monitorrepository.feature_5.1.0.202201251519/" version="5.1.0.202201251519">
+</feature>
+<feature id="org.yakindu.base.xtext.utils.gmf" url="features/org.yakindu.base.xtext.utils.gmf_3.5.6.202211080202/" version="3.5.6.202211080202">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.6.1200.v20211104-1616/" version="1.6.1200.v20211104-1616">
+</feature>
+<feature id="org.eclipse.gmf" url="features/org.eclipse.gmf_1.13.1.202106221344/" version="1.13.1.202106221344">
+</feature>
+<feature id="org.palladiosimulator.pcm.confidentiality.context.editor.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.pcm.confidentiality.context.editor.feature_5.2.0.202305310815/" version="5.2.0.202305310815">
+</feature>
+<feature id="org.eclipse.ecf.core.ssl.feature" url="features/org.eclipse.ecf.core.ssl.feature_1.1.501.v20210409-2301/" version="1.1.501.v20210409-2301">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.ssl.feature" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.401.v20210409-2301/" version="1.1.401.v20210409-2301">
+</feature>
+<feature id="org.eclipse.gef" url="features/org.eclipse.gef_3.11.0.201606061308/" version="3.11.0.201606061308">
+</feature>
+<feature id="tools.mdsd.library.standalone.initialization.log4j.feature.source" url="features/tools.mdsd.library.standalone.initialization.log4j.feature.source_0.3.0.202201251320/" version="0.3.0.202201251320">
+</feature>
+<feature id="tools.mdsd.library.standalone.initialization.core.feature.source" url="features/tools.mdsd.library.standalone.initialization.core.feature.source_0.3.0.202201251320/" version="0.3.0.202201251320">
+</feature>
+<feature id="org.eclipse.draw2d" url="features/org.eclipse.draw2d_3.10.100.201606061308/" version="3.10.100.201606061308">
+</feature>
+<feature id="org.palladiosimulator.mdsdprofiles.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.mdsdprofiles.feature_5.1.0.202211080243/" version="5.1.0.202211080243">
+</feature>
+<feature id="org.eclipse.emf.edit" url="features/org.eclipse.emf.edit_2.17.0.v20210924-1718/" version="2.17.0.v20210924-1718">
+</feature>
+<feature id="org.eclipse.sirius.properties.feature" plugin-identifier="org.eclipse.sirius.properties" url="features/org.eclipse.sirius.properties.feature_6.5.1.202106111115/" version="6.5.1.202106111115">
+</feature>
+<feature id="org.eclipse.emf.transaction" url="features/org.eclipse.emf.transaction_1.12.0.201805140824/" version="1.12.0.201805140824">
+</feature>
+<feature id="org.palladiosimulator.cost.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.cost.feature_5.1.0.202205120528/" version="5.1.0.202205120528">
+</feature>
+<feature id="tools.mdsd.cdo.debug.feature" url="features/tools.mdsd.cdo.debug.feature_0.1.0.202202211850/" version="0.1.0.202202211850">
+</feature>
+<feature id="org.palladiosimulator.edp2.ui.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.edp2.ui.feature_5.1.0.202201251352/" version="5.1.0.202201251352">
+</feature>
+<feature id="org.palladiosimulator.product.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.product.feature_5.2.0.202308020706/" version="5.2.0.202308020706">
+</feature>
+<feature id="tools.mdsd.library.standalone.initialization.emfprofiles.feature.source" url="features/tools.mdsd.library.standalone.initialization.emfprofiles.feature.source_0.3.0.202201251320/" version="0.3.0.202201251320">
+</feature>
+<feature id="tools.mdsd.library.standalone.initialization.log4j.feature" url="features/tools.mdsd.library.standalone.initialization.log4j.feature_0.3.0.202201251320/" version="0.3.0.202201251320">
+</feature>
+<feature id="org.palladiosimulator.recorderframework.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.recorderframework.feature_5.1.0.202201251404/" version="5.1.0.202201251404">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_4.22.0.v20211124-1800/" version="4.22.0.v20211124-1800">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.1400.v20211104-1616/" version="1.4.1400.v20211104-1616">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.feature" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1800.v20210618-0642/" version="3.14.1800.v20210618-0642">
+</feature>
+<feature id="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature_5.1.0.202201251650/" version="5.1.0.202201251650">
+</feature>
+<feature id="org.palladiosimulator.pcm.confidentiality.context.model.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.pcm.confidentiality.context.model.feature_5.2.0.202305310815/" version="5.2.0.202305310815">
+</feature>
+<feature id="tools.mdsd.license.epl2" url="features/tools.mdsd.license.epl2_1.0.0/" version="1.0.0">
+</feature>
+<feature id="org.eclipse.emf.workspace" url="features/org.eclipse.emf.workspace_1.12.0.201805140824/" version="1.12.0.201805140824">
+</feature>
+<feature id="org.palladiosimulator.pcm.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.pcm.feature_5.1.0.202211080252/" version="5.1.0.202211080252">
+</feature>
+<feature id="org.yakindu.base.xtext.utils.jface" url="features/org.yakindu.base.xtext.utils.jface_3.5.6.202211080202/" version="3.5.6.202211080202">
+</feature>
+<feature id="org.palladiosimulator.solver.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.solver.feature_5.1.0.202201251609/" version="5.1.0.202201251609">
+</feature>
+<feature id="org.palladiosimulator.editors.tree.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.editors.tree.feature_5.1.0.202201251519/" version="5.1.0.202201251519">
+</feature>
+<feature id="org.palladiosimulator.reliability.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.reliability.feature_5.1.0.202201251613/" version="5.1.0.202201251613">
+</feature>
+<feature id="tools.mdsd.library.standalone.initialization.emfprofiles.feature" url="features/tools.mdsd.library.standalone.initialization.emfprofiles.feature_0.3.0.202201251320/" version="0.3.0.202201251320">
+</feature>
+<feature id="org.palladiosimulator.simulizar.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.simulizar.feature_5.1.0.202201251621/" version="5.1.0.202201251621">
+</feature>
+<feature id="org.eclipse.e4.core.tools.feature" url="features/org.eclipse.e4.core.tools.feature_4.22.0.v20211020-1255/" version="4.22.0.v20211020-1255">
+</feature>
+<feature id="org.palladiosimulator.architecturaltemplates.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.architecturaltemplates.feature_5.1.0.202211080411/" version="5.1.0.202211080411">
+</feature>
+<feature id="org.palladiosimulator.commons.stoex.serialising.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.commons.stoex.serialising.feature_5.1.0.202211080202/" version="5.1.0.202211080202">
+</feature>
+<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.14.1000.v20211124-1800/" version="3.14.1000.v20211124-1800">
+</feature>
+<feature id="org.palladiosimulator.simulizar.reconfiguration.henshin.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.simulizar.reconfiguration.henshin.feature_5.1.0.202201251621/" version="5.1.0.202201251621">
+</feature>
+<feature id="org.palladiosimulator.architecturaltemplates.examples.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.architecturaltemplates.examples.feature_5.1.0.202211080411/" version="5.1.0.202211080411">
+</feature>
+<feature id="org.palladiosimulator.simulizar.reconfiguration.qvto.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.simulizar.reconfiguration.qvto.feature_5.1.0.202201251621/" version="5.1.0.202201251621">
+</feature>
+<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.18.1000.v20211124-1800/" version="3.18.1000.v20211124-1800">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.24.0.v20210924-1718/" version="2.24.0.v20210924-1718">
+</feature>
+<feature id="org.eclipse.sirius.runtime.ide.eef" plugin-identifier="org.eclipse.sirius.eef.adapters" url="features/org.eclipse.sirius.runtime.ide.eef_6.5.1.202106111115/" version="6.5.1.202106111115">
+</feature>
+<feature id="org.palladiosimulator.pcm.confidentiality.context.analysis.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.pcm.confidentiality.context.analysis.feature_5.2.0.202308011456/" version="5.2.0.202308011456">
+</feature>
+<feature id="org.palladiosimulator.metricspec.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.metricspec.feature_5.1.0.202201251346/" version="5.1.0.202201251346">
+</feature>
+<feature id="org.eclipse.sirius.runtime" plugin-identifier="org.eclipse.sirius" url="features/org.eclipse.sirius.runtime_6.5.1.202106111115/" version="6.5.1.202106111115">
+</feature>
+<feature id="org.palladiosimulator.protocom.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.protocom.feature_5.1.0.202201251621/" version="5.1.0.202201251621">
+</feature>
+<feature id="org.palladiosimulator.editors.sirius.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.editors.sirius.feature_5.1.0.202211080416/" version="5.1.0.202211080416">
+</feature>
+<feature id="org.eclipse.pde.source" url="features/org.eclipse.pde.source_3.14.1000.v20211124-1800/" version="3.14.1000.v20211124-1800">
+</feature>
+<feature id="org.palladiosimulator.simulizar.reconfiguration.storydiagram.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.simulizar.reconfiguration.storydiagram.feature_5.1.0.202201251621/" version="5.1.0.202201251621">
+</feature>
+<feature id="org.palladiosimulator.commons.stoex.sdk" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.commons.stoex.sdk_5.1.0.202211080202/" version="5.1.0.202211080202">
+</feature>
+<feature id="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.simulation.abstractsimengine.desmoj.feature_5.1.0.202201251349/" version="5.1.0.202201251349">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.26.0.v20210924-1718/" version="2.26.0.v20210924-1718">
+</feature>
+<feature id="org.eclipse.epp.package.modeling.feature" plugin-identifier="org.eclipse.epp.package.modeling" url="features/org.eclipse.epp.package.modeling.feature_4.22.0.20211202-1200/" version="4.22.0.20211202-1200">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.4.1400.v20211104-1616/" version="2.4.1400.v20211104-1616">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.4.1400.v20211104-1616/" version="1.4.1400.v20211104-1616">
+</feature>
+<feature id="org.palladiosimulator.edp2.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.edp2.feature_5.1.0.202201251352/" version="5.1.0.202201251352">
+</feature>
+<feature id="tools.mdsd.library.standalone.initialization.core.feature" url="features/tools.mdsd.library.standalone.initialization.core.feature_0.3.0.202201251320/" version="0.3.0.202201251320">
+</feature>
+<feature id="de.uka.ipd.sdq.stoex.feature" plugin-identifier="org.palladiosimulator.branding" url="features/de.uka.ipd.sdq.stoex.feature_5.1.0.202211080202/" version="5.1.0.202211080202">
+</feature>
+<feature id="org.eclipse.ecf.core.feature" url="features/org.eclipse.ecf.core.feature_1.6.1.v20211005-1944/" version="1.6.1.v20211005-1944">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" url="features/org.eclipse.ecf.filetransfer.httpclient45.feature_1.1.0.v20211008-2034/" version="1.1.0.v20211008-2034">
+</feature>
+<feature id="org.eclipse.gmf.runtime.notation" url="features/org.eclipse.gmf.runtime.notation_1.13.0.202004160913/" version="1.13.0.202004160913">
+</feature>
+<feature id="org.palladiosimulator.branding.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.branding.feature_2.0.0/" version="2.0.0">
+</feature>
+<feature id="de.uka.ipd.sdq.simulation.abstractsimengine.feature" plugin-identifier="org.palladiosimulator.branding" url="features/de.uka.ipd.sdq.simulation.abstractsimengine.feature_5.1.0.202201251349/" version="5.1.0.202201251349">
+</feature>
+<feature id="org.palladiosimulator.pcm.stoex.serialising.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.pcm.stoex.serialising.feature_5.1.0.202211080252/" version="5.1.0.202211080252">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.22.0.v20211124-1800/" version="4.22.0.v20211124-1800">
+</feature>
+<feature id="org.palladiosimulator.editors.commons.feature" plugin-identifier="org.palladiosimulator.branding" url="features/org.palladiosimulator.editors.commons.feature_5.1.0.202211080257/" version="5.1.0.202211080257">
+</feature>
+<feature id="org.eclipse.emf.ecore.edit" url="features/org.eclipse.emf.ecore.edit_2.15.0.v20210924-1718/" version="2.15.0.v20210924-1718">
+</feature>
+<feature id="org.eclipse.emf.validation" url="features/org.eclipse.emf.validation_1.12.2.202008210805/" version="1.12.2.202008210805">
+</feature>
+<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_4.22.0.v20211123-0851/" version="4.22.0.v20211123-0851">
+</feature>
+</site>
+</config>
